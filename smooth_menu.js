@@ -16,6 +16,10 @@
   $(document).ready(function(){
     // Aqui vai a Classe do Menu Nav que é aberta após a abertura do Header  
     var headerAltura = $('.navbar-inverse').height();  
+
+    // Exemplo de como obter a altura de forma Responsiva.
+    // var headerAltura = $('.navbar-inverse').height() + $('.seletor-do-menu-collapse/responsivo').height();  
+
     // Aqui vai a Classe que esta na TAG a do Menu Nav 
     $('.slide-menu').click(function(e){              
         var linkHref = $(this).attr('href');        
